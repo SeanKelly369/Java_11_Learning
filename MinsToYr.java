@@ -7,7 +7,7 @@ class MinsToYr {
 
 class MinutesToYearsDaysCalculator {
 	public static void printYearsAndDays(long minutes) {
-		int hour =(int) minutes / 60;
+		int hour = (int)minutes / 60;
 		int day = (int)(hour / 24);
 		int year = day/365;
 		day = day % 365;
