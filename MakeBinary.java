@@ -10,6 +10,14 @@ public class MakeBinary {
             num /= 2;
             binary = binary + remaining;
         }
+        
+        // Not necessary for the result of this exercise, but the binary expression to be shown accurately needs to be reversed.
+        String reverse = "";
+        for(int i = binary.length() - 1; i >= 0; i--)
+        {
+            reverse = reverse + binary.charAt(i);
+        }
+        System.out.println(reverse);
 
         String[] strparts = new String[binary.length()];
         if(binary.length() == 0 || binary == null) {
