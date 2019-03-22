@@ -5,7 +5,7 @@ public class MakeBinary {
         int num = 63;
         String binary ="";
 
-        while(num > 0) {
+        while(num > 0) { // find binary expression of base 10 number
             int remaining = num % 2;
             num /= 2;
             binary = binary + remaining;
